@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC66B3051BE038850035697C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC66B3041BE038850035697C /* AppDelegate.swift */; };
+		AC66B3071BE038850035697C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC66B3061BE038850035697C /* ViewController.swift */; };
+		AC66B30A1BE038850035697C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC66B3081BE038850035697C /* Main.storyboard */; };
+		AC66B30C1BE038850035697C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC66B30B1BE038850035697C /* Assets.xcassets */; };
+		AC66B30F1BE038850035697C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC66B30D1BE038850035697C /* LaunchScreen.storyboard */; };
+		AC66B31A1BE038850035697C /* mogura02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC66B3191BE038850035697C /* mogura02Tests.swift */; };
+		AC66B3251BE038860035697C /* mogura02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC66B3241BE038860035697C /* mogura02UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC66B3161BE038850035697C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC66B2F91BE038850035697C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC66B3001BE038850035697C;
+			remoteInfo = mogura02;
+		};
+		AC66B3211BE038860035697C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC66B2F91BE038850035697C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC66B3001BE038850035697C;
+			remoteInfo = mogura02;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC66B3011BE038850035697C /* mogura02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mogura02.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC66B3041BE038850035697C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC66B3061BE038850035697C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC66B3091BE038850035697C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC66B30B1BE038850035697C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC66B30E1BE038850035697C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC66B3101BE038850035697C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC66B3151BE038850035697C /* mogura02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mogura02Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC66B3191BE038850035697C /* mogura02Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mogura02Tests.swift; sourceTree = "<group>"; };
+		AC66B31B1BE038860035697C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC66B3201BE038860035697C /* mogura02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mogura02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC66B3241BE038860035697C /* mogura02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mogura02UITests.swift; sourceTree = "<group>"; };
+		AC66B3261BE038860035697C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC66B2FE1BE038850035697C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC66B3121BE038850035697C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC66B31D1BE038860035697C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC66B2F81BE038850035697C = {
+			isa = PBXGroup;
+			children = (
+				AC66B3031BE038850035697C /* mogura02 */,
+				AC66B3181BE038850035697C /* mogura02Tests */,
+				AC66B3231BE038860035697C /* mogura02UITests */,
+				AC66B3021BE038850035697C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC66B3021BE038850035697C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC66B3011BE038850035697C /* mogura02.app */,
+				AC66B3151BE038850035697C /* mogura02Tests.xctest */,
+				AC66B3201BE038860035697C /* mogura02UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC66B3031BE038850035697C /* mogura02 */ = {
+			isa = PBXGroup;
+			children = (
+				AC66B3041BE038850035697C /* AppDelegate.swift */,
+				AC66B3061BE038850035697C /* ViewController.swift */,
+				AC66B3081BE038850035697C /* Main.storyboard */,
+				AC66B30B1BE038850035697C /* Assets.xcassets */,
+				AC66B30D1BE038850035697C /* LaunchScreen.storyboard */,
+				AC66B3101BE038850035697C /* Info.plist */,
+			);
+			path = mogura02;
+			sourceTree = "<group>";
+		};
+		AC66B3181BE038850035697C /* mogura02Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AC66B3191BE038850035697C /* mogura02Tests.swift */,
+				AC66B31B1BE038860035697C /* Info.plist */,
+			);
+			path = mogura02Tests;
+			sourceTree = "<group>";
+		};
+		AC66B3231BE038860035697C /* mogura02UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC66B3241BE038860035697C /* mogura02UITests.swift */,
+				AC66B3261BE038860035697C /* Info.plist */,
+			);
+			path = mogura02UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC66B3001BE038850035697C /* mogura02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC66B3291BE038860035697C /* Build configuration list for PBXNativeTarget "mogura02" */;
+			buildPhases = (
+				AC66B2FD1BE038850035697C /* Sources */,
+				AC66B2FE1BE038850035697C /* Frameworks */,
+				AC66B2FF1BE038850035697C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mogura02;
+			productName = mogura02;
+			productReference = AC66B3011BE038850035697C /* mogura02.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC66B3141BE038850035697C /* mogura02Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC66B32C1BE038860035697C /* Build configuration list for PBXNativeTarget "mogura02Tests" */;
+			buildPhases = (
+				AC66B3111BE038850035697C /* Sources */,
+				AC66B3121BE038850035697C /* Frameworks */,
+				AC66B3131BE038850035697C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC66B3171BE038850035697C /* PBXTargetDependency */,
+			);
+			name = mogura02Tests;
+			productName = mogura02Tests;
+			productReference = AC66B3151BE038850035697C /* mogura02Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC66B31F1BE038860035697C /* mogura02UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC66B32F1BE038860035697C /* Build configuration list for PBXNativeTarget "mogura02UITests" */;
+			buildPhases = (
+				AC66B31C1BE038860035697C /* Sources */,
+				AC66B31D1BE038860035697C /* Frameworks */,
+				AC66B31E1BE038860035697C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC66B3221BE038860035697C /* PBXTargetDependency */,
+			);
+			name = mogura02UITests;
+			productName = mogura02UITests;
+			productReference = AC66B3201BE038860035697C /* mogura02UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC66B2F91BE038850035697C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = rg;
+				TargetAttributes = {
+					AC66B3001BE038850035697C = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					AC66B3141BE038850035697C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = AC66B3001BE038850035697C;
+					};
+					AC66B31F1BE038860035697C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = AC66B3001BE038850035697C;
+					};
+				};
+			};
+			buildConfigurationList = AC66B2FC1BE038850035697C /* Build configuration list for PBXProject "mogura02" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC66B2F81BE038850035697C;
+			productRefGroup = AC66B3021BE038850035697C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC66B3001BE038850035697C /* mogura02 */,
+				AC66B3141BE038850035697C /* mogura02Tests */,
+				AC66B31F1BE038860035697C /* mogura02UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC66B2FF1BE038850035697C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC66B30F1BE038850035697C /* LaunchScreen.storyboard in Resources */,
+				AC66B30C1BE038850035697C /* Assets.xcassets in Resources */,
+				AC66B30A1BE038850035697C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC66B3131BE038850035697C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC66B31E1BE038860035697C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC66B2FD1BE038850035697C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC66B3071BE038850035697C /* ViewController.swift in Sources */,
+				AC66B3051BE038850035697C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC66B3111BE038850035697C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC66B31A1BE038850035697C /* mogura02Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC66B31C1BE038860035697C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC66B3251BE038860035697C /* mogura02UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC66B3171BE038850035697C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC66B3001BE038850035697C /* mogura02 */;
+			targetProxy = AC66B3161BE038850035697C /* PBXContainerItemProxy */;
+		};
+		AC66B3221BE038860035697C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC66B3001BE038850035697C /* mogura02 */;
+			targetProxy = AC66B3211BE038860035697C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC66B3081BE038850035697C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC66B3091BE038850035697C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC66B30D1BE038850035697C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC66B30E1BE038850035697C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC66B3271BE038860035697C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC66B3281BE038860035697C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC66B32A1BE038860035697C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mogura02/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rg.sample.mogura02;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC66B32B1BE038860035697C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mogura02/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rg.sample.mogura02;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC66B32D1BE038860035697C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mogura02Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rg.sample.mogura02Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mogura02.app/mogura02";
+			};
+			name = Debug;
+		};
+		AC66B32E1BE038860035697C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mogura02Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rg.sample.mogura02Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mogura02.app/mogura02";
+			};
+			name = Release;
+		};
+		AC66B3301BE038860035697C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = mogura02UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rg.sample.mogura02UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = mogura02;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AC66B3311BE038860035697C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = mogura02UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rg.sample.mogura02UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = mogura02;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC66B2FC1BE038850035697C /* Build configuration list for PBXProject "mogura02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC66B3271BE038860035697C /* Debug */,
+				AC66B3281BE038860035697C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC66B3291BE038860035697C /* Build configuration list for PBXNativeTarget "mogura02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC66B32A1BE038860035697C /* Debug */,
+				AC66B32B1BE038860035697C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC66B32C1BE038860035697C /* Build configuration list for PBXNativeTarget "mogura02Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC66B32D1BE038860035697C /* Debug */,
+				AC66B32E1BE038860035697C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC66B32F1BE038860035697C /* Build configuration list for PBXNativeTarget "mogura02UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC66B3301BE038860035697C /* Debug */,
+				AC66B3311BE038860035697C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC66B2F91BE038850035697C /* Project object */;
+}

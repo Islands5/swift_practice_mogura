@@ -11,7 +11,12 @@ import UIKit
 class MoguraViewController: UIViewController {
 
     var timer: NSTimer!
-    var moguraMatrix = Array<[Mogura]>(count: 3, repeatedValue: [Mogura](count: 3, repeatedValue: Mogura()))
+    var moguraMatrix:[[Mogura]] = [
+        [Mogura(), Mogura(), Mogura()],
+        [Mogura(), Mogura(), Mogura()],
+        [Mogura(), Mogura(), Mogura()]
+    ]
+    var hammer = Hammer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,6 +44,7 @@ class MoguraViewController: UIViewController {
         timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: Selector("movingMoguras:"), userInfo: nil, repeats: true)
         
         self.view.addSubview(moritutiArea)
+        self.view.addSubview(hammer)
         
         // Do any additional setup after loading the view.
     }
@@ -49,8 +55,8 @@ class MoguraViewController: UIViewController {
     }
     
     func movingMoguras(timer : NSTimer) {
-        var x = Int(arc4random_uniform(3))
-        var y = Int(arc4random_uniform(3))
+        let x = Int(arc4random_uniform(3))
+        let y = Int(arc4random_uniform(3))
         moguraMatrix[x][y].moving()
     }
     
@@ -64,5 +70,21 @@ class MoguraViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        for touch: AnyObject in touches {
+            let location = touch.locationInView(self.view)
+            hammer.move(location.x, y: location.y)
+            
+            for var i = 0; i < 3;i++ {
+                for var j = 0; j < 3; j++ {
+                    moguraMatrix[i][j].isAttacked(location)
+                }
+            }
+            
+            print(moguraMatrix[0][0].center)
+            
+        }
+    }
 
 }

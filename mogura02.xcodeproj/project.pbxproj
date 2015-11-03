@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC305CCD1BE89EBA000AE78A /* Hammer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC305CCC1BE89EBA000AE78A /* Hammer.swift */; settings = {ASSET_TAGS = (); }; };
 		AC660E391BE5DB01008BCCFD /* morituti.png in Resources */ = {isa = PBXBuildFile; fileRef = AC660E381BE5DB01008BCCFD /* morituti.png */; settings = {ASSET_TAGS = (); }; };
 		AC660E3B1BE5DD5A008BCCFD /* frame00038@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC660E3A1BE5DD5A008BCCFD /* frame00038@2x.png */; settings = {ASSET_TAGS = (); }; };
 		AC660E3D1BE5DD63008BCCFD /* picopicohammer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC660E3C1BE5DD63008BCCFD /* picopicohammer@2x.png */; settings = {ASSET_TAGS = (); }; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC305CCC1BE89EBA000AE78A /* Hammer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hammer.swift; sourceTree = "<group>"; };
 		AC660E381BE5DB01008BCCFD /* morituti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = morituti.png; sourceTree = "<group>"; };
 		AC660E3A1BE5DD5A008BCCFD /* frame00038@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame00038@2x.png"; sourceTree = "<group>"; };
 		AC660E3C1BE5DD63008BCCFD /* picopicohammer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "picopicohammer@2x.png"; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				AC660E3A1BE5DD5A008BCCFD /* frame00038@2x.png */,
 				AC660E401BE61897008BCCFD /* Mogura.swift */,
 				AC66B3061BE038850035697C /* ViewController.swift */,
+				AC305CCC1BE89EBA000AE78A /* Hammer.swift */,
 				AC660E421BE62C90008BCCFD /* MoguraViewController.swift */,
 				AC66B30B1BE038850035697C /* Assets.xcassets */,
 				AC66B3101BE038850035697C /* Info.plist */,
@@ -269,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC305CCD1BE89EBA000AE78A /* Hammer.swift in Sources */,
 				AC660E411BE61897008BCCFD /* Mogura.swift in Sources */,
 				AC66B3071BE038850035697C /* ViewController.swift in Sources */,
 				AC66B3051BE038850035697C /* AppDelegate.swift in Sources */,

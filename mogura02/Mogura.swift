@@ -13,6 +13,7 @@ class Mogura: UIView {
     var beforeCenter: CGPoint
     var afterCenter: CGPoint
     let moguraImg: UIImage
+    var state = false
     
     init() {
         self.beforeCenter = CGPoint()
@@ -39,25 +40,44 @@ class Mogura: UIView {
         beforeCenter = self.center
         afterCenter = CGPoint(x: self.beforeCenter.x, y: self.beforeCenter.y - 30.0)
         self.addSubview(moguraArea)
-        let myTap = UITapGestureRecognizer(target: self, action: "tapGesture:")
-        self.addGestureRecognizer(myTap)
     }
 
     func moving() {
         UIView.animateWithDuration(0.5,
             animations: { () -> Void in
                 self.center = self.afterCenter
+                self.state = true
             }) { (Bool) -> Void in
                 UIView.animateWithDuration(0.5,
                     animations: { () -> Void in
                         self.center = self.beforeCenter
                     }) { (Bool) -> Void in
+                        self.state = false
                 }
         }
     }
     
-    func tapGesture(sender: UITapGestureRecognizer) {
-        print("hello")
+    func moveOut() {
+        UIView.animateWithDuration(0.5,
+            animations: { () -> Void in
+                self.center = self.afterCenter
+                self.state = true
+            }) { (Bool) -> Void in
+                UIView.animateWithDuration(0.5,
+                    animations: { () -> Void in
+                        self.center = self.beforeCenter
+                    }) { (Bool) -> Void in
+                        self.state = false
+                }
+        }
     }
-
+    
+    func isAttacked(location: CGPoint) -> Bool {
+        let distance = sqrt(pow(self.center.x - location.x, 2) + pow(self.center.y - location.y, 2))
+        if 53.0 > distance && self.state == true {
+            return true
+        }else {
+            return false
+        }
+    }
 }

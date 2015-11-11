@@ -15,7 +15,6 @@
 		AC660E411BE61897008BCCFD /* Mogura.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC660E401BE61897008BCCFD /* Mogura.swift */; settings = {ASSET_TAGS = (); }; };
 		AC660E431BE62C90008BCCFD /* MoguraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC660E421BE62C90008BCCFD /* MoguraViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		AC66B3051BE038850035697C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC66B3041BE038850035697C /* AppDelegate.swift */; };
-		AC66B3071BE038850035697C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC66B3061BE038850035697C /* ViewController.swift */; };
 		AC66B30C1BE038850035697C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC66B30B1BE038850035697C /* Assets.xcassets */; };
 		AC66B31A1BE038850035697C /* mogura02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC66B3191BE038850035697C /* mogura02Tests.swift */; };
 		AC66B3251BE038860035697C /* mogura02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC66B3241BE038860035697C /* mogura02UITests.swift */; };
@@ -48,7 +47,6 @@
 		AC660E421BE62C90008BCCFD /* MoguraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoguraViewController.swift; sourceTree = "<group>"; };
 		AC66B3011BE038850035697C /* mogura02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mogura02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC66B3041BE038850035697C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC66B3061BE038850035697C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC66B30B1BE038850035697C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC66B3101BE038850035697C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC66B3151BE038850035697C /* mogura02Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mogura02Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,7 +111,6 @@
 				AC660E3C1BE5DD63008BCCFD /* picopicohammer@2x.png */,
 				AC660E3A1BE5DD5A008BCCFD /* frame00038@2x.png */,
 				AC660E401BE61897008BCCFD /* Mogura.swift */,
-				AC66B3061BE038850035697C /* ViewController.swift */,
 				AC305CCC1BE89EBA000AE78A /* Hammer.swift */,
 				AC660E421BE62C90008BCCFD /* MoguraViewController.swift */,
 				AC66B30B1BE038850035697C /* Assets.xcassets */,
@@ -274,7 +271,6 @@
 			files = (
 				AC305CCD1BE89EBA000AE78A /* Hammer.swift in Sources */,
 				AC660E411BE61897008BCCFD /* Mogura.swift in Sources */,
-				AC66B3071BE038850035697C /* ViewController.swift in Sources */,
 				AC66B3051BE038850035697C /* AppDelegate.swift in Sources */,
 				AC660E431BE62C90008BCCFD /* MoguraViewController.swift in Sources */,
 			);

@@ -40,7 +40,7 @@ class MoguraViewController: UIViewController {
                 self.view.addSubview(moguraMatrix[i][j])
             }
         }
-        
+            
         timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: Selector("movingMoguras:"), userInfo: nil, repeats: true)
         
         self.view.addSubview(moritutiArea)
@@ -78,12 +78,11 @@ class MoguraViewController: UIViewController {
             
             for var i = 0; i < 3;i++ {
                 for var j = 0; j < 3; j++ {
-                    moguraMatrix[i][j].isAttacked(location)
+                    if (moguraMatrix[i][j].isAttacked(location) == true){
+                        moguraMatrix[i][j].moveOut()
+                    }
                 }
             }
-            
-            print(moguraMatrix[0][0].center)
-            
         }
     }
 
